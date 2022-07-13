@@ -17,9 +17,9 @@ For analysing videos using neural networks, two types of architectures are used 
 
 The other popular architecture used to process videos is a natural extension of CNNs - a 3D convolutional network. In this project, you will try both these architectures. Let's have professor Raghavan explain these two approaches.
 
-##### Convolutions + RNN
+#### Convolutions + RNN
 The conv2D network will extract a feature vector for each image, and a sequence of these feature vectors is then fed to an RNN-based network. The output of the RNN is a regular softmax (for a classification problem such as this one).
 
-##### 3D Convolutional Network
+#### 3D Convolutional Network
 3D convolutions are a natural extension to the 2D convolutions you are already familiar with. Just like in 2D conv, you move the filter in two directions (x and y), in 3D conv, you move the filter in three directions (x, y and z).
 
